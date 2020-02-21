@@ -478,7 +478,7 @@ int CoreProcess(int pipeIn, int pipeOut){
 						}
 
 
-					/*}else{
+					}else{
 						lifes--;
 						resetPlayer;
 							system(getAudio(DEATH));
@@ -494,7 +494,7 @@ int CoreProcess(int pipeIn, int pipeOut){
 								ghostProcess(pipeOut, ghostsPosition[i], i, STADY);				
 								while(true);
 							}
-						}	**/					
+						}						
 					}
 				}
 				break;
